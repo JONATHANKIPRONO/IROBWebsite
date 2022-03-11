@@ -1,38 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
-body{
-    background-color: #ECF0F1;
-    margin: 0%;
-    font-family:'poppins'; 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-}
+:root {
+  --font-family: 'Manrope', sans-serif;
 
-ul {
-    width: 250px;
-    word-break: break-all;
-}
-li{
-    display: inline;
-    letter-spacing: 10px;
-    text-align: right;
-    word-wrap: break-word;
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   
-  
-
-}
-.navbar{
-    background-color: orange;
-    width: fit-content;
-    font-size: medium;
-}
-
-.shaping{
-    background-color: orange;
-    text-align: right;
-    display: inline;
-}
-.body-a{
-    block-size: auto;
-    background-color: blue;
-    text-align: center;
-    
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
 }
